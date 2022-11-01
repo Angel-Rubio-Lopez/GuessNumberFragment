@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="game"
+            type="com.example.guessnumberfragment.data.Game"/>
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvWinOrLose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/tvWinOrLoseMargin"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvNumberOfAttempts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/tbNumberOfAttemptsMargin"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/tvNumberMargin"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btConfigFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btConfigFragment" />
+
+        <ImageView
+            android:id="@+id/ivImage"
+            android:layout_width="@dimen/ivImageWidth"
+            android:layout_height="@dimen/ivImageHeight"
+            android:layout_margin="@dimen/ivImageMargin"
+            app:srcCompat="@drawable/iconoguessnumberfragment" />
+    </LinearLayout>
+</layout>

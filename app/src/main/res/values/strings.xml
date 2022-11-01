@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">GuessNumberFragment</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="etAttemptsHint">Number of attemps</string>
+    <string name="etNameHint">Name</string>
+    <string name="btStart">¡Play!</string>
+    <string name="etNumberHint">Put a number</string>
+    <string name="btPlay">Check</string>
+    <string name="btRetry">Retry</string>
+    <string name="aboutMe">About us</string>
+    <string name="aboutName">Ángel Rubio López</string>
+    <string name="aboutSubTitle">Programmer</string>
+    <string name="aboutBrief">Application with which you will have to guess a random number between 0 and 100</string>
+    <string name="btConfigFragment">Go back</string>
+</resources>

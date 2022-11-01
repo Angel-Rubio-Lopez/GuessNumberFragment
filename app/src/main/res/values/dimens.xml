@@ -1,0 +1,17 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="etNameMargin">25dp</dimen>
+    <dimen name="etAttemptsMargin">25dp</dimen>
+    <dimen name="btStartMargin">25dp</dimen>
+    <dimen name="linearLayout">30dp</dimen>
+    <dimen name="etNumberMargin">25dp</dimen>
+    <dimen name="tvHighOrLowMargin">25dp</dimen>
+    <dimen name="btPlayMargin">25dp</dimen>
+    <dimen name="btRetryMargin">25dp</dimen>
+    <dimen name="tvWinOrLoseMargin">25dp</dimen>
+    <dimen name="tbNumberOfAttemptsMargin">25dp</dimen>
+    <dimen name="tvNumberMargin">25dp</dimen>
+    <dimen name="ivImageWidth">150dp</dimen>
+    <dimen name="ivImageHeight">150dp</dimen>
+    <dimen name="ivImageMargin">50dp</dimen>
+</resources>
